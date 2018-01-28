@@ -1,8 +1,93 @@
 <html>
   <head>
     <title>Rxrossi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   </head>
   <body>
-    <p>hi wow</p>
+    <header>
+      <h1 id="h1-header">rxrossi</h1>
+      <h2 id="h2-header">Javascript fullstack developer</h2>
+    </header>
+    <main>
+      <section id="projects">
+        <h2 id="h2-projects">Projects</h2>
+
+        <section class="project-case container-fluid ">
+          <div class="row no-gutters white-bg">
+            <div class="project-description col-md">
+              <h3 class="blue">Multi tenant app for salons and others</h3>
+              <p>Features:</p>
+              <ul>
+                <li>Stock control for products purchases from suppliers, use in services or sale to customers</li>
+                <li>Calculate cost of payment methods like credit or debit (also accepts money)</li>
+                <li>Register of Professionals, Clients, Products, Purchases and Sales</li>
+              </ul>
+              <p>Note: It is in beta, seems to work fine, the UI will be improved</p>
+              <a href="https://github.com/rxrossi/fv-client" class="btn">View code on github</a>
+              <a href="https://rxrossi.github.io/FCC-Game-of-Life/" class="btn">View live version</a>
+            </div>
+            <div class="project-photo col-md my-auto ">
+              <img src="imgs/Dmanager.jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+        <section class="project-case container-fluid even">
+          <div class="row no-gutters ">
+            <div class="project-description col-md">
+              <h3 class="blue">RogueLike game in React</h3>
+              <p>In this incredible game, you are a blue block fighting all the evil red blocks, leveling up, going down the cave to kill the boss Find magical health pots and powerful weapons from brooms to FIRE SWORDS.</p>
+              <p>To play the game, user the keyboard arrows, to fight an enemy, get close to him and press the arrow in his direction until you or it dies.</p>
+              <a href="https://github.com/rxrossi/rogueLike" class="btn">View code on github</a>
+              <a href="https://rxrossi.github.io/rogueLike/" class="btn">View live version</a>
+            </div>
+            <div class="project-photo col-md my-auto">
+              <img src="imgs/rogueLike.jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+        <section class="project-case container-fluid ">
+          <div class="row no-gutters grey-bg">
+            <div class="project-description col-md">
+              <h3 class="blue">Game of Life in React</h3>
+              <p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+              <ul>
+                <li>Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.</li>
+                <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+                <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+                <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+              </ul>
+              <a href="https://github.com/rxrossi/FCC-Game-of-Life" class="btn">View code on github</a>
+              <a href="https://rxrossi.github.io/FCC-Game-of-Life/" class="btn">View live version</a>
+            </div>
+            <div class="project-photo col-md my-auto ">
+              <img src="imgs/gameOfLife.jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+      </section>
+      <section id="about-me">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="black-bg row">
+                <div class="col">
+                  <h3>About Me</h3>
+                </div>
+              </div>
+              <p>I like to TDD/BDD.</p>
+              <p>I like to vim + tmux.</p>
+              <p>Prefer to build apps instead of static pages.</p>
+              <p>Believe that great software is made by great teams, want to become part of one.</p>
+              <p>You can contact me at <b>rx.rossi@gmail.com</b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

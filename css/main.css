@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: #333;
+}
+
+header {
+  /* display: none; */
+  text-transform: uppercase;
+  background: url('/imgs/headerBg.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  height: 100vh;
+}
+
+
+#h1-header {
+  letter-spacing: 4vmax;
+  margin-left: 4vmax;
+  padding-top: 42.5vh;
+  font-size: 3.5vmax;
+  font-weight: bolder;
+  color: #333;
+}
+
+#h2-header {
+  padding-top: 5vh;
+  letter-spacing: 1vmax;
+  margin-left: 1vmax;
+  color: #f6c354;
+}
+
+#projects {
+  background: #111;
+  text-align: center;
+}
+
+#h2-projects {
+  padding: 5vh 0;
+  letter-spacing: 1vmax;
+  margin-left: 1vmax;
+  color: #eee;
+  font-weight: bolder;
+}
+
+.project-case: {
+  background: #fff;
+}
+
+.project-photo {
+  background: #333;
+}
+
+@media (min-width: 768px) {
+  .even .project-photo {
+    order: -1;
+  }
+}
+
+.project-description {
+  background: #eee;
+  padding: 10vmin;
+}
+
+
+.project-description h3 {
+  padding: 1vmin;
+}
+
+.project-description p {
+  padding: 10px 5vmin;
+}
+
+.project-description ul {
+  padding: 10px 5vmin;
+}
+
+.project-photo img {
+  margin: auto;
+  max-width: 100%;
+}
+
+.blue {
+  color: #5dadf1;
+}
+
+.grey-bg {
+  background: #333;
+}
+
+.black-bg {
+  background: #000;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+#about-me h3 {
+  padding: 5vh 0;
+  letter-spacing: 1vmax;
+  margin-left: 1vmax;
+  color: #eee;
+  font-weight: bolder;
+}
+
+#about-me p {
+  padding: 5%;
+  color: #f6c354;
+}
+
+#about-me {
+  /* display: none; */
+  background: url('/imgs/aboutMeBg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  height: 100vh;
+}
