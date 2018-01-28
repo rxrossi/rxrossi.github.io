@@ -9,17 +9,17 @@
       - [ ] write a description
       - [ ] explains technologies used
       - [ ] provide a link
-        - [ ] Dmanager
-        - [ ] DungeonCrawler
-        - [ ] Tic Tac Toe
-        - [ ] Simons Game
+        - [X] Dmanager
+        - [X] DungeonCrawler
+        - [X] Tic Tac Toe
+        - [X] Simons Game
     - [ ] npm 
-      - [ ] reusablecrudredux
-        - [ ] write documentation
-          - [ ] Quick Start
-          - [ ] Reasons
-          - [ ] Use cases
-          - [ ] explain how it works
+      - [X] reusablecrudredux
+        - [X] write documentation
+          - [X] Quick Start
+          - [X] Reasons
+          - [X] Use cases
+          - [X] explain how it works
 - Create a linkedin
 
 # Maybe later

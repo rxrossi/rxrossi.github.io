@@ -111,6 +111,10 @@ header {
   color: #f6c354;
 }
 
+.ddd-bg {
+  background: #ddd;
+}
+
 #about-me {
   /* display: none; */
   background: url('/imgs/aboutMeBg.jpg') no-repeat center center fixed;
